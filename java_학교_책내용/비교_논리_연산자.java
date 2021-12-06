@@ -8,7 +8,7 @@ public class 비교_논리_연산자 {
         System.out.println(3 != 2); // true
         System.out.println(!(3 != 2)); // false
         System.out.println((3 > 2) && (3 > 4)); // false
-        System.out.println((3 != 2) || (-1 > 0)); // true
+        System.out.println((3 != 2) /* || (-1 > 0) */ ); // true
         System.out.println((3 != 2) ^ (-1 >0)); // xor 연산자  모두 false 인경우만 false   그러므로 true
 
         return;
