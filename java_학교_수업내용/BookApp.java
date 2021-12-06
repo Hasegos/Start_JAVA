@@ -2,12 +2,12 @@ import java.util.*;
 public class BookApp {
     static void show(Book2 temp)
     {
-        System.out.print(temp.title);
-        System.out.println(", "+temp.author);
+        System.out.print(Book2.title);
+        System.out.println(", "+Book2.author);
     }
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String title, author;
+        
        // System.out.print("책 제목:");
        // title = scanner.next();
        // System.out.print("책 저자:");
