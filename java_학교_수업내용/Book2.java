@@ -6,8 +6,8 @@ public class Book2 {
             this(title,"작자미상");
         }
         public Book2(String title,String author){
-            this.title = title;
-            this.author = author;
+            Book2.title = title;
+            Book2.author = author;
         }
         public void show(){
             System.out.print("제목: "+title);
