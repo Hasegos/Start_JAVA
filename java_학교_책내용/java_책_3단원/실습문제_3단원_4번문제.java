@@ -15,6 +15,7 @@ public class 실습문제_3단원_4번문제 {
             if(num < 0)
             {
                 System.out.println("프로그램을종료합니다...");
+                scanner.close();
                 return;
             }
             result = num % 7;
