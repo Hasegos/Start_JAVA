@@ -17,8 +17,6 @@ class Phone{
         return tel;
     }
 }
-  
-
 public class 실습문제_4단원_4번문제 {   
     
    
