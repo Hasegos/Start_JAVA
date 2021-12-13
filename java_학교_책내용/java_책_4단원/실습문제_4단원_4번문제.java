@@ -17,11 +17,8 @@ class Phone{
         return tel;
     }
 }
-public class 실습문제_4단원_4번문제 {   
-    
-   
-    public static void main(String[] args) {
-        
+public class 실습문제_4단원_4번문제 {      
+    public static void main(String[] args) {       
         
         Scanner scanner = new Scanner(System.in);        
         System.out.print("인원수 >>");
@@ -32,8 +29,7 @@ public class 실습문제_4단원_4번문제 {
         {
             System.out.print("이름과 전화번호(번호는 연속적으로 입력) >>");                       
             Array[i] = new Phone(scanner.next(),scanner.next());                                                                  
-        }
-        
+        }        
         System.out.println("저장되었습니다...");
          while(true)
         {            
@@ -44,7 +40,8 @@ public class 실습문제_4단원_4번문제 {
             {
                 if(arr.equals("exit"))
                 {                   
-                    System.out.println("프로그램을 종료합니다...");  
+                    System.out.println("프로그램을 종료합니다...");
+                    scanner.close();  
                     return;                    
                 }
                 else if(arr.equals(Array[i].getName()))
@@ -55,10 +52,7 @@ public class 실습문제_4단원_4번문제 {
                 {
                     System.out.println(arr+"이 없습니다.");
                 }             
-            }
-                     
-        }
-             
-    }
-   
+            }                     
+        }             
+    }   
 }
